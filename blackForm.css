@@ -51,6 +51,10 @@ input:focus {
     color: white;
 }
 
+textarea:focus {
+    color: white;
+}
+
 ::placeholder {
     font-family: 'Titillium Web', sans-serif;
     color: #5e5e5e;
@@ -75,11 +79,12 @@ i, h4, p {
 }
 
 i {
-    font-size: 15px;
+    font-size: 8px;
     color: #141414;
     padding: 10px;
     background-color: #b8996b;
-    border-radius: 20px;
+    border-radius: 14px;
+    /* border: 1px solid white; */
 }
 
 h4 {
