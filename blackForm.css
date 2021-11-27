@@ -25,9 +25,9 @@ body {
 }
 
 .box {
-    width: 140px;
-    
+    width: 130px;
     /* border: 1px solid greenyellow; */
+    margin: 10px;
 }
 
 /* form {
