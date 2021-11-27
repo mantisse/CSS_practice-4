@@ -8,7 +8,10 @@ body {
     font-family: 'M PLUS 1', sans-serif;
     color: white;
     background-image: url(img/patrick-tomasso-QMDap1TAu0g-unsplash.jpg);
-    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
 }
 
 form {
@@ -40,7 +43,7 @@ input {
     display: block;
     justify-content: center;
     width: 90%;
-    padding: 12px;
+    padding: 12px 40px;
     margin: 10px auto;
     background-color: #ffc600;
     border: none;
@@ -77,3 +80,20 @@ input {
     color: white;
     font-size: small;
 }
+
+.middle {
+    position: relative;
+}
+
+.fa-user {
+    position: absolute;
+    left: 30px;
+    top: 10px;
+}
+
+.fa-unlock-alt {
+    position: absolute;
+    left: 30px;
+    top: 57px;
+}
+
