@@ -18,15 +18,15 @@
         <form action="">
             <div class="row">
                 <label for="name">Full Name*</label>
-                <input type="text" name="name" required>
+                <input type="text" name="name" autocomplete="off" required>
             </div>
             <div class="row">
                 <label for="email">Email ID*</label>
-                <input type="email" name="email" required>
+                <input type="email" name="email" autocomplete="off" required>
             </div>
             <div class="row">
                 <label for="phoneNumber">Phone Number*</label>
-                <input type="tel" name="name" required>
+                <input type="tel" name="name" autocomplete="off" required>
             </div>
             <div class="row">
                 <label for="departure">Departure Date/Time*</label>
@@ -63,7 +63,7 @@
                 </div>
             </div>
             <div class="row">
-                <label for="return">Departure Date/Time*</label>
+                <label for="return">Return Date/Time*</label>
                 <div class="dateTime">
                     <input type="date" name="return" required>
                     <div class="time">
@@ -98,11 +98,11 @@
             </div>
             <div class="row">
                 <label for="pickupAddress">Pickup Address*</label>
-                <textarea name="pickupAddress" rows="5" required></textarea>
+                <textarea name="pickupAddress" rows="5" autocomplete="off" required></textarea>
             </div>
             <div class="row">
                 <label for="destinationAddress">Destination Address*</label>
-                <textarea name="destinationAddress" rows="5" required></textarea>
+                <textarea name="destinationAddress" rows="5" autocomplete="off" required></textarea>
             </div>
             <div class="row">
                 <label for="journeyType">Journey Type*</label>
@@ -129,7 +129,7 @@
             </div>
             <div class="row">
                 <label for="additionalMessage">Additional Message:</label>
-                <textarea name="additionalMessage" rows="5"></textarea>
+                <textarea name="additionalMessage" rows="5" autocomplete="off"></textarea>
             </div>
             <div class="row">
                 <div class="button">
