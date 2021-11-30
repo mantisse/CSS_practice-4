@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0063e5;
+    height: 80vh;
+}
+
+.mainContainer {
+    width: 900px;
+    height: 600px;
+    margin: 150px auto;
+    background-image: url(/img/mauntains-3.png);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px darkblue;
+    position: relative;
+}
+
+.container {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 500px;
+    height: 600px;
+    background-color: #fafafa;
+    position: absolute;
+    border-radius: 0 20px 20px 0;
+    right: 0;
+    text-align: center;
+}
+
+h1, 
+h5 {
+    padding: 10px 0;
+    font-family: 'Cardo', serif;
+}
+
+.tab {
+    border: 1px solid lightgrey;
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    padding-left: 40px;
+    border-radius: 25px;
+    text-align: left;
+    position: relative;
+}
+
+.loginTab {
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: #0063e5;
+}
+
+.loginTab input {
+    color: #fafafa;
+    background-color: #0063e5;
+    text-transform: uppercase;
+    font-size: medium;
+}
+
+.loginTab:hover,
+.loginTab input:hover
+{
+    background-color: #30cdfe;
+}
+
+
+input {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    border: none;
+    outline: none;
+    align-items: left;
+}
+
+i {
+    font-size: large;
+    color: #6bbad4;
+    position: absolute;
+    left: 15px;
+    bottom: 14px;
+}
+
+::placeholder {
+    margin: 0;
+    text-align: left;
+}
+
+.checkbox {
+    width: 80%;
+    margin: auto;
+    padding: 10px 0;
+    text-align: left;
+}
+
+.text {
+    width: 80%;
+    margin: auto;
+    padding: 10px 0;
+    text-align: right;
+}
+
+.text a {
+    text-decoration: none;
+    color: #6bbad4;
+    font-weight: bold;
+}
+
+.social {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    padding: 20px 0;
+    border-bottom: 1px solid lightgrey;
+}
+
+.social a {
+    width: 30%;
+    height: 30px;
+    border-radius: 3px;
+    color: #fafafa;
+    font-weight: bold;
+    padding-top: 5px;
+    font-size: 15px;
+    text-decoration: none;
+
+}
+.facebook {
+    background-color: #4664b3;
+}
+
+.google {
+    background-color: #d64134;
+}
+
+.twitter {
+    background-color: #2ecffe;
+}
+
+h5 a {
+    text-decoration: none;
+    color: #6bbad4;
+}
