@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    color: #fafafa;
+    background-image: url(img/alexander-schimmeck-DSOohFTAfno-unsplash.jpg);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.container {
+    backdrop-filter: brightness(40%);
+    width: 600px;
+    margin: 10px auto;
+    padding: 40px 30px;
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    width: 100%;
+}
+
+label {
+    width: 35%;
+}
+
+input,
+textarea {
+    width: 62%;
+}
+
+input,
+select,
+option {
+    background-color: #fafafa;
+    font-family: 'Nunito', sans-serif;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 4px 2px;
+    height: 30px;
+}
+
+textarea {
+    background-color: #fafafa;
+    font-family: 'Nunito', sans-serif;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 3px 2px;
+}
+
+.dateTime {
+    width: 62%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dateTime input {
+    width: 45%;
+}
+
+.row {
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.button {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.button input {
+    background-color: #00004d;
+    color: #fafafa;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    width: 25%;
+    margin-right: 17px;
+    padding: 5px;
+    border: none;
+}
+
+.button input:hover {
+    background-color: #ffc600;
+}
